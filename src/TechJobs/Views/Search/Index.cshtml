@@ -36,7 +36,7 @@
 
     foreach (Dictionary<string, string> job in ViewBag.jobs)
     {
-        <table class=" = " job-listing">
+        <table class= " job-listing">
             @foreach (KeyValuePair<string, string> line in job)
 
             {
@@ -44,11 +44,6 @@
                     <td>@line.Key</td>
                    <td>@line.Value</td>
             </tr>
-
-
-
-
-
 
 
             }
